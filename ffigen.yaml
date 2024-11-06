@@ -1,0 +1,9 @@
+# dart pub run ffigen --config ffigen.yaml
+
+name: 'FluidLiteBindings'
+description: 'Bindings to FluidLite C library'
+output: 'lib/src/ffi/fluidlite_bindings.dart'
+headers:
+  entry-points:
+    - 'fluidlite/src/fluid_synth.h'
+#    - 'fluidlite-src/include/fluidlite.h'
